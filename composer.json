@@ -1,0 +1,20 @@
+{
+  "name": "venndev/vosaka-tracer",
+  "description": "VosakaTracer is a tracking and debugging system specially designed for Vosaka - PHP async I/O library using Generator pattern.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "vosaka\\vtracer\\": "src/vosaka/vtracer"
+    }
+  },
+  "authors": [
+    {
+      "name": "VennV",
+      "email": "hyplex9009@gmail.com"
+    }
+  ],
+  "require": {
+    "venndev/v-osaka": "^1.3"
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4844fcf538c8a87431353ba41277842f",
+    "packages": [
+        {
+            "name": "venndev/v-osaka",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vosaka-php/vosaka.git",
+                "reference": "65c4cf0f28986774954555ca4cd37c64d5101d23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vosaka-php/vosaka/zipball/65c4cf0f28986774954555ca4cd37c64d5101d23",
+                "reference": "65c4cf0f28986774954555ca4cd37c64d5101d23",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "venndev\\vosaka\\": "src/venndev/vosaka"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "VennV",
+                    "email": "hyplex9009@gmail.com"
+                }
+            ],
+            "description": "A library for php async, ..",
+            "support": {
+                "issues": "https://github.com/vosaka-php/vosaka/issues",
+                "source": "https://github.com/vosaka-php/vosaka/tree/1.3.1"
+            },
+            "time": "2025-06-27T18:29:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,159 @@
+{
+    "timestamp": 1751052381.203613,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d31b601.96319582",
+    "task_id": "task_685ef05d31b686.86608558",
+    "level": "INFO",
+    "type": "TASK_SPAWN",
+    "message": "Tracer setup completed successfully",
+    "context": {
+        "timestamp": 1751052381,
+        "memory_usage": 601040
+    }
+}
+{
+    "timestamp": 1751052381.211048,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d334156.18362971",
+    "task_id": "task_685ef05d338690.85151831",
+    "level": "INFO",
+    "type": "FILE_WRITE",
+    "message": "File written successfully",
+    "context": {
+        "filename": "C:\\Users\\VennDev\\OneDrive\\Desktop\\vosaka-tracer\\tests\/vosaka_test.txt",
+        "bytes": 43
+    }
+}
+{
+    "timestamp": 1751052381.212572,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d33d846.05957749",
+    "task_id": "task_685ef05d33e5c8.80782848",
+    "level": "INFO",
+    "type": "TIMER_START",
+    "message": "Starting timer #1",
+    "context": {
+        "delay_ms": 100
+    }
+}
+{
+    "timestamp": 1751052381.213071,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d33fe10.37647156",
+    "task_id": "task_685ef05d3404f9.03200278",
+    "level": "INFO",
+    "type": "TASK_SPAWN",
+    "message": "Starting error handling demonstration",
+    "context": []
+}
+{
+    "timestamp": 1751052381.213569,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d341d26.21471246",
+    "task_id": "task_685ef05d342412.08339526",
+    "level": "INFO",
+    "type": "TASK_SPAWN",
+    "message": "Starting performance monitoring",
+    "context": {
+        "start_memory_bytes": 842200,
+        "start_memory_mb": 0.8
+    }
+}
+{
+    "timestamp": 1751052381.21507,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d334156.18362971",
+    "task_id": "task_685ef05d348201.30138974",
+    "level": "INFO",
+    "type": "FILE_READ",
+    "message": "File read successfully",
+    "context": {
+        "filename": "C:\\Users\\VennDev\\OneDrive\\Desktop\\vosaka-tracer\\tests\/vosaka_test.txt",
+        "bytes_read": 43,
+        "content_preview": "Test data from Vosaka: 2025-06-27 19:26:21\n"
+    }
+}
+{
+    "timestamp": 1751052381.32527,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d33d846.05957749",
+    "task_id": "task_685ef05d4f69a1.33564794",
+    "level": "INFO",
+    "type": "TIMER_FIRE",
+    "message": "Timer #1 fired",
+    "context": {
+        "actual_delay_ms": 100
+    }
+}
+{
+    "timestamp": 1751052381.326319,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d4f9fd1.75792831",
+    "task_id": "task_685ef05d4fab01.53780563",
+    "level": "INFO",
+    "type": "TIMER_START",
+    "message": "Starting timer #2",
+    "context": {
+        "delay_ms": 200
+    }
+}
+{
+    "timestamp": 1751052381.433945,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d33fe10.37647156",
+    "task_id": "task_685ef05d69f1d5.20288103",
+    "level": "ERROR",
+    "type": "TASK_ERROR",
+    "message": "Caught expected error",
+    "context": {
+        "error_type": "RuntimeException",
+        "error_message": "Simulated error occurred",
+        "recovery_attempted": true
+    }
+}
+{
+    "timestamp": 1751052381.543912,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d4f9fd1.75792831",
+    "task_id": "task_685ef05d84cab1.22702517",
+    "level": "INFO",
+    "type": "TIMER_FIRE",
+    "message": "Timer #2 fired",
+    "context": {
+        "actual_delay_ms": 200
+    }
+}
+{
+    "timestamp": 1751052381.545334,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d851654.58329373",
+    "task_id": "task_685ef05d852360.58257326",
+    "level": "INFO",
+    "type": "TIMER_START",
+    "message": "Starting timer #3",
+    "context": {
+        "delay_ms": 300
+    }
+}
+{
+    "timestamp": 1751052381.545756,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d33fe10.37647156",
+    "task_id": "task_685ef05d853dd6.80960438",
+    "level": "INFO",
+    "type": "TASK_COMPLETE",
+    "message": "Error recovered successfully",
+    "context": []
+}
+{
+    "timestamp": 1751052381.876918,
+    "datetime": "2025-06-27 19:26:21.000",
+    "trace_id": "trace_685ef05d851654.58329373",
+    "task_id": "task_685ef05dd61794.90337286",
+    "level": "INFO",
+    "type": "TIMER_FIRE",
+    "message": "Timer #3 fired",
+    "context": {
+        "actual_delay_ms": 300
+    }
+}
